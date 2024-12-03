@@ -1,7 +1,7 @@
 # Movie Critic Rating Prediction
 
 ## Purpose:
-The purpose of this project is to predict the critic rating using a structured data science workflow. It includes stapes like data cleaning, data exploration, data visualization, and data modeling.
+The purpose of this project is to predict the critic rating using a structured data science workflow. It includes steps like data cleaning, data exploration, data visualization, and data modeling.
 
 The main idea is to use a dataset with movie-related information to figure out factors, such as movie title, movie genre, movie runtime, etc. that affect ratings. The goal is to build a model that can predict the rating based on these features. 
 
