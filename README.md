@@ -7,7 +7,12 @@ The main idea is to use a dataset with movie-related information to figure out f
 
 ## What is in This Repo:
 - READEME.md: Explains what the project is about and what's included in the repository
-- movie_rating_prediction_code.ipynb: Notebook file with all the code for the project. In the code, I use data gathering method from postgresql to take the data. I have attached the data in this repo, which is the raw_movie_data.csv. The notebook file will include all of the codes such as the exploratory data analysis, data cleaning, and data modeling.
-- raw_movie_data.csv: The raw dataset used for this project. 
+- movie_rating_prediction_code.ipynb: Notebook file with all the code for the project. In the code, I used PostgreSQL to gather the raw data. I have attached the raw data in this repo, which is the raw_movie_data.csv. The notebook file will include all of the codes such as the exploratory data analysis, data cleaning, and data modeling.
+- raw_movie_data.csv: The raw dataset used for this project. Since I gather the data from PostgreSQL, you can skip the data gathering part. You can load this file directly and process with the rest of the notebook. You can use the code below to load the data.
+  
+  ```
+  df = pd.read_csv("movie_data.csv")
+  ```
 - movie_data.csv: The cleaned dataset used for the project. If you want to run the code directly to test the machine learning model without going through the data cleaning process, you can use this dataset. I have added a note in the code to show where you can start using this file, right before splitting the train and test datasets.
 - requirements.txt: A list of Python packages that you need to install to run the project.
+
